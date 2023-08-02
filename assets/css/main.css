@@ -659,7 +659,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.image img {
+		.image img, video {
 			border-radius: 4px;
 			display: block;
 		}
@@ -668,7 +668,7 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+			.image.left img, .image.right img, video {
 				width: 100%;
 			}
 
