@@ -1669,3 +1669,14 @@ input, select, textarea {
 .g-text {
 	font-size: 1.4em;
 }
+
+
+.skills {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.skills li {
+	font-size: large;
+}
