@@ -1678,5 +1678,38 @@ input, select, textarea {
 }
 
 .skills li {
-	font-size: large;
+	font-size: 100px;
 }
+
+.fa-brands {
+	display: block;
+}
+
+.fa-js {
+	color: yellow;
+	/* background-color: black; */
+}
+
+.fa-python {
+	color: navy;
+}
+
+.fa-react {
+	color: rgb(8, 208, 246);
+}
+
+.flask-icon {
+	color: white;
+}
+
+.js-background {
+	z-index: -1;
+	background-color: black;
+	color: black;
+	position: relative;
+}
+
+/* .fa-js {
+	position: relative;
+	z-index: 1;
+} */
