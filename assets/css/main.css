@@ -1670,6 +1670,44 @@ input, select, textarea {
 	font-size: 1.4em;
 }
 
+/* Tech icons in the header: a wrapping grid of small tiles with a label under each.
+   The light tile behind each logo keeps dark logos (GitHub, MySQL) visible on the dark page. */
+.tech-grid {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem 0.75rem;
+	padding: 0;
+	margin: 1.5rem 0 0 0;
+}
+
+.tech-grid li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 4.5rem;
+	padding: 0;
+}
+
+.tech-grid img {
+	width: 3rem;
+	height: 3rem;
+	object-fit: contain;
+	padding: 0.4rem;
+	border-radius: 0.6rem;
+	background: rgba(255, 255, 255, 0.92);
+}
+
+.tech-grid span {
+	margin-top: 0.4rem;
+	font-size: 0.6rem;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	line-height: 1.3;
+	text-align: center;
+}
+
 /* Plain-text label shown where a "Live" demo link used to be (dimmed so it reads as status, not a link). */
 .demo-retired {
 	opacity: 0.6;
