@@ -44,81 +44,28 @@
 						<div class="content">
 							<div class="inner">
 								<h1>Christopher MacMaster</h1>
-								<p >
-									Junior Fullstack Software Engineer
-									 <!-- with Progressive Values  -->
-								</p>
-								<ul class="skills">
-									<li >
-										<div class="js-div">
-											<!-- putting black behind js -->
-											<!-- <div class="js-background">
-												.
-											</div> -->
-											<i class="fa-brands fa-js"></i>
-										</div>
-										<!-- <img class="python-icon" src="./images/javascript.svg" alt="Your SVG Icon"> -->
-										<p>
-											JAVASCRIPT
-										</p>
-										<!-- <div class="skills-item">
-
-										</div> -->
-									</li>
-									<li>
-										<!-- <i class="fa-brands fa-python"></i> -->
-										<img class="python-icon" src="./images/python.svg" alt="Your SVG Icon">
-										<p >
-											PYTHON
-										</p>
-									</li>
-									<li>
-										<i class="fa-brands fa-react"></i>
-										<p >
-											REACT
-										</p>
-									</li>
+								<p>Data Engineer</p>
+								<!-- Tech I use, same list as my GitHub profile README. Icons are local copies (images/tech/)
+								     from devicon and Simple Icons, so the site doesn't depend on an outside CDN. -->
+								<ul class="tech-grid">
+									<li><img src="images/tech/python.svg" alt="" /><span>Python</span></li>
+									<li><img src="images/tech/polars.svg" alt="" /><span>Polars</span></li>
+									<li><img src="images/tech/pandas.svg" alt="" /><span>Pandas</span></li>
+									<li><img src="images/tech/dagster.png" alt="" /><span>Dagster</span></li>
+									<li><img src="images/tech/airflow.svg" alt="" /><span>Airflow</span></li>
+									<li><img src="images/tech/duckdb.svg" alt="" /><span>DuckDB</span></li>
+									<li><img src="images/tech/postgresql.svg" alt="" /><span>PostgreSQL</span></li>
+									<li><img src="images/tech/mysql.svg" alt="" /><span>MySQL</span></li>
+									<li><img src="images/tech/aws.svg" alt="" /><span>AWS (S3)</span></li>
+									<li><img src="images/tech/parquet.svg" alt="" /><span>Parquet</span></li>
+									<li><img src="images/tech/pytest.svg" alt="" /><span>pytest</span></li>
+									<li><img src="images/tech/git.svg" alt="" /><span>Git</span></li>
+									<li><img src="images/tech/github.svg" alt="" /><span>GitHub</span></li>
+									<li><img src="images/tech/nix.svg" alt="" /><span>Nix / devenv</span></li>
+									<li><img src="images/tech/javascript.svg" alt="" /><span>JavaScript</span></li>
+									<li><img src="images/tech/react.svg" alt="" /><span>React</span></li>
+									<li><img src="images/tech/vscode.svg" alt="" /><span>VS Code</span></li>
 								</ul>
-								<ul class="skills">
-									<li>
-										<img class="python-icon" src="./images/redux.svg" alt="Your SVG Icon">
-										<p >
-											REDUX
-										</p>
-									</li>
-									<li>
-										<img class="python-icon" src="./images/postgresql.svg" alt="Your SVG Icon">
-										<p >
-											POSTGRESQL
-										</p>
-									</li>
-									<li>
-										<img class="python-icon flask-icon" src="./images/pocoo_flask-icon.svg" alt="Your SVG Icon">
-										<p >
-											FLASK
-										</p>
-									</li>
-									</ul>
-									<!-- <ul class="skills">
-										<li>
-											<img class="python-icon" src="./images/icons8-html5.svg" alt="Your SVG Icon">
-											<p>
-												HTML5
-											</p>
-										</li>
-										<li>
-											<img class="python-icon" src="./images/icons8-css3.svg" alt="Your SVG Icon">
-											<p>
-												CSS3
-											</p>
-										</li>
-										<li>
-											<img class="python-icon flask-icon" src="./images/icons8-git.svg" alt="Your SVG Icon">
-											<p>
-												GIT
-											</p>
-										</li>
-									</ul> -->
 								<!-- <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
 								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p> -->
 							</div>
@@ -127,7 +74,7 @@
 							<ul>
 								<li><a href="#intro">Intro</a></li>
 								<li><a href="#vision">Vision</a></li>
-								<li><a href="#work">Work</a></li>
+								<li><a href="#work">Projects</a></li>
 								<li><a href="#about">About</a></li>
 								<!-- <li><a href="#contact">Contact</a></li> -->
 								<!--<li><a href="#elements">Elements</a></li>-->
@@ -165,7 +112,30 @@
 
 						<!-- Work --> 
 							<article id="work">
-								<h2 class="major">Work</h2>
+								<h2 class="major">Projects</h2>
+
+								<!-- Poll Commons: flagship project. The code is private, so there's no GitHub link. -->
+								<!-- TODO: add a screenshot of pollcommons.org here (images/poll-commons.png). -->
+								<div class="groupUp-div">
+									<div class="g-sub-div">
+										<p class="g-text">
+											Poll Commons (Python / Dagster / Polars / DuckDB / FastAPI / Next.js)
+										</p>
+										<div class="links">
+											<a href="https://pollcommons.org">Live</a>
+											<span class="demo-retired">Code private</span>
+										</div>
+									</div>
+									<p>
+										An open site for U.S. public opinion data: search decades of survey questions, see the exact
+										wording, follow trends over time, and build weighted crosstabs with significance testing. I built
+										the full stack myself: Python pipelines (Dagster, Polars, DuckDB) that turn data from the major
+										academic surveys (GSS, ANES, the Cooperative Election Study and more) into one searchable catalog,
+										served by a FastAPI API and a Next.js site.
+									</p>
+								</div>
+
+								<h3 class="major">Earlier work (App Academy, 2022–2023)</h3>
 								<span class="image main"><img src="images/group-up.png" alt="" /></span>
 								<!-- <span class="image main">
 									<video className='user-background-img user-vod' src="images/Xbox_Trailer_03.mp4" autoPlay loop width="400" height="300"
