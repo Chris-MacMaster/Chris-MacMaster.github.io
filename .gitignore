@@ -1,1 +1,6 @@
 .DS_Store
+
+# devenv (local environment state; devenv.nix, devenv.yaml and devenv.lock are committed)
+.devenv*
+devenv.local.nix
+devenv.local.yaml
