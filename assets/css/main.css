@@ -1670,6 +1670,13 @@ input, select, textarea {
 	font-size: 1.4em;
 }
 
+/* Plain-text label shown where a "Live" demo link used to be (dimmed so it reads as status, not a link). */
+.demo-retired {
+	opacity: 0.6;
+	font-style: italic;
+	margin-right: 0.75em;
+}
+
 
 .skills {
 	list-style: none;
